@@ -1,0 +1,1011 @@
+@import url("https://use.typekit.net/eut4hsg.css");
+
+@font-face {
+font-family: "futura_heavy";
+src: url("/fonts/futura_heavy/futura_heavy.ttf") format("truetype")
+}
+
+@font-face {
+font-family: "thinking_of_betty";
+src: url("/fonts/thinking_of_betty/Thinking_of_Betty.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Butler";
+    src: url("/fonts/Butler/Butler_Black.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_Black_Stencil.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_Bold.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_Bold_Stencil.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_ExtraBold.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_ExtraBold_Stencil.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_Light.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_Black_Stencil.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_Medium.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_Black.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_Black_Stencil.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_Ultra_Light.otf") format("OpenType");
+    src: url("/fonts/Butler/Butler_Ultra_Light_Stencil.otf") format("OpenType");
+}
+
+body {
+    margin: inherit;
+    background-color: #213f7d;
+    background-image: url(img/background.png);
+    background-size: cover;
+}
+
+#app {
+    font-family: futura-pt, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #213f7d;
+}
+
+#nav {
+padding: 30px;
+}
+
+#nav a {
+font-weight: bold;
+color: #fff;
+}
+
+#nav a.router-link-exact-active {
+color: #DEB408;
+}
+
+#container {
+
+}
+
+.header {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.productSheets {
+    z-index: 99;
+    position: relative;
+}
+
+.productSheetsFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: .6;
+    height: 90%;
+}
+
+.productSheetHeader {
+    background-color: #213f7d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    border-top: 3px #000 solid;
+    font-size: 22px;
+    font-weight: bold;
+    word-break: break-word;
+    position: relative;
+    width: auto;
+    z-index: 1;
+}
+
+.productSheetH1 {
+    background-color: #213f7d;
+    color: #fff;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.fontFuturePT {
+    font-family: futura-pt;
+}
+
+.fontFuturePTBold {
+    font-family: futura-pt-bold;
+}
+
+.fontFuturePTCondensed {
+    font-family: futura-pt-condensed;
+}
+
+.fontAdelleSans {
+    font-family: adelle-sans;
+}
+
+.fontAdelleSansUltraThin {
+    font-family: adelle-sans-ultra-thin;
+}
+
+.fontAdelleSansCondensed {
+    font-family: adelle-sans-condensed;
+}
+
+.fontButler {
+    font-family: Butler;
+}
+
+.fontThinking_of_betty {
+    font-family: thinking_of_betty;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font16 {
+    font-size: 14px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font26 {
+    font-size: 26px;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+.font31 {
+    font-size: 31px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.yellow {
+  color: #DEB408;
+}
+
+.blue {
+  color: #213f7d;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+}
+
+.padT5 {
+    padding-top: 5px !important;
+}
+
+.padT6 {
+    padding-top: 6px !important;
+}
+
+.padT15 {
+    padding-top: 15px !important;
+}
+
+.padT25 {
+    padding-top: 25px !important;
+}
+
+.padL10 {
+    padding-left: 10px !important;
+}
+
+.padL15 {
+    padding-left: 15px !important;
+}
+
+.padL20 {
+    padding-left: 20px !important;
+}
+
+.padL30 {
+    padding-left: 30px;
+}
+
+.padL35 {
+    padding-left: 35px;
+}
+
+.padL40 {
+    padding-left: 40px;
+}
+
+.padL45 {
+    padding-left: 45px;
+}
+
+.padL55 {
+    padding-left: 55px;
+}
+
+.padR5 {
+    padding-right: 5px;
+}
+
+.padR8 {
+    padding-right: 8px;
+}
+
+.padR12 {
+    padding-right: 12px;
+}
+
+.padR15 {
+    padding-right: 15px;
+}
+
+.padR25 {
+    padding-right: 25px;
+}
+
+.padR75 {
+    padding-right: 75px;
+}
+
+.padR100 {
+    padding-right: 100px;
+}
+
+.padR125 {
+    padding-right: 125px;
+}
+
+.padR5p {
+    padding-right: 5%;
+}
+
+.padR15p {
+    padding-right: 15%;
+}
+
+.padB12P {
+    padding-bottom: 10%;
+}
+
+.padB20 {
+    padding-bottom: 20px;
+}
+
+.padB25 {
+    padding-bottom: 25px;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.alignCenter {
+    text-align: center !important;
+}
+
+.height50 {
+    height: 50px;
+}
+
+.height75 {
+    height: 75px !important;
+}
+
+.height100 {
+    height: 100px;
+}
+
+.height125 {
+    height: 125px;
+}
+
+.height150 {
+    height: 150px;
+}
+
+.width80p {
+    width: 80% !important;
+}
+
+.width35 {
+    width: 35px;
+}
+
+.width150 {
+    width: 150px;
+}
+
+.width200 {
+    width: 200px;
+}
+
+.width213 {
+    width: 213px;
+}
+
+.width255 {
+    width: 255px;
+}
+
+.nounderline {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: futura-pt;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}
+
+h2 {
+    font-family: futura-pt;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.headerMain {
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+}
+
+.contentMain {
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+}
+
+.contentInner {
+    padding: 80px 0px 15px 50px;
+    width: 425px;
+}
+
+.contentInnerCrossover, .contentInnerSP, .contentInnerPL, .contentInnerDOT  {
+    padding: 40px 0px 5em 0px;
+    width: 400px;
+}
+
+.contentInnerCrossoverProducts, .contentInnerSPProducts, .contentInnerPLProducts {
+    padding-top: 10px;
+    width: 400px;
+}
+
+.contentInnerSm {
+    padding: 5px;
+}
+
+.row {
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.rowAction {
+    text-align: right;
+}
+
+.innerRow {
+    padding-left: 25px;
+    padding-bottom: 15px;
+    width: 85%;
+    cursor: pointer;
+}
+
+.innerInnerRow {
+    padding-left: 35px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.indentLeft15 {
+    padding-left: 15px;
+}
+
+.columnThird {
+    float: left;
+    width: 33%;
+}
+
+.backgroundYellow {
+    background-color: #DEB408;
+    min-height: 600px;
+}
+
+.backgroundYellow100p {
+    background-color: #DEB408;  
+    margin-bottom: 15px;
+}
+
+.backgroundblue {
+    background-color: #213f7d;
+}
+
+.borderBottomFade { 
+    width:100%;
+    overflow: hidden;
+    height: 3px;
+    opacity: .4;
+}
+
+.specChemProductOuterCircle {
+    padding-top: 104px;
+    /* z-index: 99;
+    position: relative; */
+}
+
+.specChemProductCircle {
+    background-color: Transparent;
+    background-image: url("img/specchem-product-circle.png"); 
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specChemProductCircleText {
+    font-size: 20px;
+    color: #213f7d;
+    font-weight: bold;
+    display: inline-block;
+    word-break: break-word;
+    width: 175px;
+}
+
+.productSheetOuterCircle1 {
+    margin-top: -314px;
+    margin-left: 7px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.productSheetOuterCircle2 {
+    margin-top: -103px;
+    width: 100px;
+    margin-left: 145px;
+    cursor: pointer;
+}
+
+.productSheetOuterCircle3 {
+    margin-top: -12px;
+    width: 100px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.productSheetOuterCircle4 {
+    margin-top: -10px;
+    width: 100px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.productSheetOuterCircle5 {
+    margin-top: -70px;
+    width: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.productSheetOuterCircle6 {
+    margin-top: -93px;
+    width: 100px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.productSheetCircle {
+    background-color: Transparent;
+    background-image: url("img/circle.png"); 
+    background-repeat: no-repeat;
+    background-size: 125px;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productSheetCircleText {
+    /* padding-top: 30px;
+    width: 75px;
+    padding-left: 13px; */
+}
+
+.productSheetCircleText a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.productSheetCircleText span {
+    font-size: 17px;
+    width: 98px;
+    display: inline-block;
+}
+
+.button-white {
+    display: inline-block;
+    background-color: Transparent;
+    background-image: url("img/button-white.png"); 
+    background-repeat: no-repeat;
+    background-size: 255px;
+    width: 255px;
+    height: 56px;
+    text-align: center;
+}
+
+.buttonText {
+    padding-top: 15px;
+    width: 255px;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'futura_heavy';
+}
+
+.buttonText a {
+    color: #213f7d;
+    text-decoration: none;
+}
+
+.selectMd {
+    width: 100px;
+}
+
+.textSm {
+    width: 50px;
+}
+
+.submitButton {
+    text-align: center;
+}
+
+.selectLg select { 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    -ms-appearance: none; 
+    appearance: none; 
+    outline: 0; 
+    background-color: Transparent;
+    background-image: url("img/dropdown-lg.png"); 
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.selectLg { 
+    position: relative; 
+    display: block; 
+    width: 200px; 
+    background: transparent; 
+    overflow: hidden; 
+} 
+
+.selectSm select, .selectSSm select { 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    -ms-appearance: none; 
+    appearance: none; 
+    outline: 0; 
+    background-color: Transparent;
+    background-image: url("img/dropdown-sm.png"); 
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.selectSm  { 
+    position: relative; 
+    display: block; 
+    width: 75px;
+    background: transparent; 
+    overflow: hidden; 
+} 
+
+.selectSSm  { 
+    position: relative; 
+    display: block; 
+    width: 120px;
+    background: transparent; 
+    overflow: hidden; 
+} 
+
+.selectMd select { 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    -ms-appearance: none; 
+    appearance: none; 
+    outline: 0; 
+    background-color: Transparent;
+    background-image: url("img/dropdown-md.png"); 
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.selectMd  { 
+    position: relative; 
+    display: block; 
+    width: 100px;
+    background: transparent; 
+    overflow: hidden; 
+} 
+
+.selectMd2 select { 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    -ms-appearance: none; 
+    appearance: none; 
+    outline: 0; 
+    background-color: Transparent;
+    background-image: url("img/dropdown-md-2.png"); 
+    background-repeat: no-repeat;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.selectMd2  { 
+    position: relative; 
+    display: block; 
+    width: 167px;
+    background: transparent; 
+    overflow: hidden; 
+    padding-top: 8px
+} 
+
+select { 
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    cursor: pointer;
+    border: none; 
+} 
+
+select::-ms-expand { 
+    display: none; 
+}  
+
+.selectLg::after, .selectSm::after, .selectMd::after { 
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    padding: 0 1em; 
+    background: transparent;
+    pointer-events: none; 
+    color: #F39C12;
+}
+
+.textMd { 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    -ms-appearance: none; 
+    appearance: none; 
+    outline: 0; 
+    background-color: Transparent;
+    background-image: url("img/textbox-md.png"); 
+    background-repeat: no-repeat;
+    border:none;
+    height: 24px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.textSSm { 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    -ms-appearance: none; 
+    appearance: none; 
+    outline: 0; 
+    background-color: Transparent;
+    background-image: url("img/textbox-ssm.png"); 
+    background-repeat: no-repeat;
+    border:none;
+    height: 24px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 29px;
+}
+
+.slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+    background-color: #000; color: #FFF;
+    transition: all 1s;
+}
+
+.slider.close {
+    top: 100%;
+    height: 0;
+}
+
+.column {
+    width: 33%;
+    color: white;
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    border-top: 1px solid #FFF;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #213f7d;
+    text-align: center;
+}
+
+.footerIcons {
+    width: 300px;    
+    display: table;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    z-index: 999;
+    /*padding-right: 100px;*/
+}
+
+.slide-up {
+    overflow:hidden;
+    background: #DEB408;
+    height: 100%;
+    margin-top: 0px;
+    z-index: 999999999;
+    position: fixed;
+    width: 100%;
+    animation: 1s slide-up;
+    border-radius: 25px 25px 0px 0px;
+  }
+
+.paddingSelectProduct {
+    padding-left: 30px;
+}
+
+#cementousCalculator {
+    padding: 15px;
+}
+
+.cementitiousContentMain {
+    padding: 0 15px;
+    width: 350px;
+}
+
+#cementitiousCalculatorResults {
+    padding: 15px;
+}
+
+#epoxyCalculator {
+    padding: 15px;
+}
+
+.epoxyContentMain {
+    padding: 0 15px;
+    width: 350px;
+}
+
+#epoxyCalculatorResults {
+    padding: 15px;
+}
+
+.crossoverChartMain {
+    padding: 15px;
+}
+
+.productLibraryMain {
+    padding: 15px;
+}
+
+.selectProductMain {
+    padding-top: 15px;
+}
+
+.productDescription {
+    width: 100%;
+    text-align: right;
+    bottom: 45px;
+    position: fixed;
+}
+
+.productDescriptionInner {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+    width: 400px;
+    padding-left: 40px;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 100%;
+    height: 300%; 
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}       
+
+@media only screen and (min-width: 1200px) 
+{
+    .contentMain {
+        width: 350px;
+    }
+
+    .headerMain {
+        width: auto;
+    }
+}
+
+/* iPhone 11, Pro Max, Xs Max, Xr */
+@media only screen and (min-width: 395px) {
+    .contentMain {
+        width: 425px;
+    }
+    
+    .headerMain {
+        width: auto;
+    }
+
+    .contentInnerCrossover, .contentInnerSP, .contentInnerPL, .contentInnerDOT {
+        width: 425px;
+    }
+
+    .contentInnerCrossoverProducts, .contentInnerSPProducts, .contentInnerPLProducts {
+        width: 425px;
+    }
+
+    .innerRow {
+        width: 75%;
+    }
+
+    .productSheetHeaderText {
+        width: 75%
+    }
+
+    .productDescription {
+        width: 100%;
+        text-align: right;
+    }
+    
+    .productDescriptionInner {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #000;
+        width: 380px;
+    }
+}  
+
+/* iPhone 11 Pro, X, Xs */
+@media only screen and (min-width: 355px) and (max-width: 394px) {
+    .contentMain {
+        width: 350px;
+    }
+    
+    .headerMain {
+        width: auto;
+    }
+
+    .contentInnerCrossover, .contentInnerSP, .contentInnerPL, .contentInnerDOT {
+        width: 375px;
+    }
+
+    .contentInnerCrossoverProducts, .contentInnerSPProducts, .contentInnerPLProducts {
+        width: 375px;
+    }
+
+    .contentInner {
+        padding: 55px 0px 15px 21px;
+    }
+    
+    .productSheetHeader {
+        width: 360px;
+    }
+
+    .productDescription {
+        margin-top: 90px;
+        width: 100%;
+        text-align: right;
+    }
+    
+    .productDescriptionInner {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #000;
+        width: 330px;
+    }
+}
+
+/* Samsung S7-S9 */
+@media only screen and (min-width: 340px)and (max-width: 354px) {
+    .contentInner {
+        padding: 80px 0px 13px 13px;
+    }
+
+    .contentMain {
+        width: 350px;
+    }
+    
+    .headerMain {
+        width: auto;
+    }
+
+    .contentInnerCrossover, .contentInnerSP, .contentInnerPL, .contentInnerDOT {
+        width: 352px;
+    }
+
+    .contentInnerCrossoverProducts, .contentInnerSPProducts, .contentInnerPLProducts {
+        width: 352px;
+    }
+    
+    .productSheetHeader {
+        font-size: 20px;
+        width: 350px;
+    }
+
+    .productDescription {
+        margin-top: 90px;
+        width: 100%;
+        text-align: right;
+    }
+    
+    .productDescriptionInner {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        text-shadow: 2px 2px #000;
+        width: 325px;
+    }
+}
